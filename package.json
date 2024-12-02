@@ -2,7 +2,9 @@
   "name": "@qodestack/typescript-template",
   "module": "index.ts",
   "type": "module",
+  "prettier": "@qodestack/prettier-config",
   "devDependencies": {
+    "@qodestack/prettier-config": "^1.0.2",
     "@types/bun": "latest"
   },
   "peerDependencies": {
